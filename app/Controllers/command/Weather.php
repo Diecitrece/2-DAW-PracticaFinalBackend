@@ -17,7 +17,7 @@ class Weather extends BaseController
 
         $weatherM = new WeatherModel();
 
-        $response = $client->request('GET', 'https://api.openweathermap.org/data/2.5/weather?zip=12001,es&appid=a0fb4f2f9187a934fa762364ea1a52de', []);
+        $response = $client->request('GET', 'https://api.openweathermap.org/data/2.5/weather?zip=12001,es&appid=putyouropenweatherkeyhere', []);
         $response->getStatusCode();
         $body = $response->getBody();
         $body = json_decode($body, true);

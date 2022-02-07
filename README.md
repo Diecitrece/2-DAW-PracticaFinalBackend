@@ -1,0 +1,2 @@
+# 2-DAW-PracticaFinalBackend
+Esta es la práctica final para la asignatura de backend de 2º de DAW. Sería la segunda vez que uso el framework CodeIgniter para PHP y sirve como API para mi práctica final de frontend. | This is the final practice for the backend subject of 2ºDAW. It is also my second time using CodeIgniter framework for PHP and also is the API provider for my frontend final practice.
